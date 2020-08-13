@@ -5,7 +5,7 @@
 ## 部署
 
 ### 方式1
-下载操作系统对应的程序和**.env**文件(也可以自己创建一个,需要和程序在同一目录)
+下载操作系统对应的程序和 **.env** 文件(也可以自己创建一个,需要和程序在同一目录),
 **.env**用记事本打开编辑，在等号后面填写你申请的APPCODE
 
 ###### WEATHER_APPCODE=[天气预报APPCODE](https://market.aliyun.com/products/57126001/cmapi014123.html)
