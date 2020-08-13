@@ -4,21 +4,27 @@
 
 ## 部署
 
+###方式1
 下载操作系统对应的程序和**.env**文件(也可以自己创建一个,需要和程序在同一目录)
-
 **.env**用记事本打开编辑，在等号后面填写你申请的APPCODE
 
-###### WEATHER_APPCODE=[天气预报APPCODE申请地址](https://market.aliyun.com/products/57126001/cmapi014123.html)
-###### CALENDAR_APPCODE=[农历APPCODE申请地址](https://www.juhe.cn/docs/api/id/177)
+###### WEATHER_APPCODE=[天气预报APPCODE](https://market.aliyun.com/products/57126001/cmapi014123.html)
+###### CALENDAR_APPCODE=[农历APPCODE](https://www.juhe.cn/docs/api/id/177)
 
+填写完毕后保存然后运行天气服务器即可
 
-填写完毕后保存关闭，直接运行天气服务器即可
-## 获取数据
 GET方式获取数据，只需要在结尾写上城市名
 
 > http://localhost:5000/weather/北京
 
-返回的Json数据样式
+###方式2
+下载操作系统对应的程序，直接运行。
+GET方式获取数据，直接把需要的参数都写在URL上，填写城市名、[天气预报APPCODE](https://market.aliyun.com/products/57126001/cmapi014123.html)、[农历APPCODE](https://www.juhe.cn/docs/api/id/177)
+> http://localhost:5000/weather/北京/WEATHER_APPCODE/CALENDAR_APPCODE
+
+
+## 返回的Json数据样式
+
 ```javascript
 {
   "weather": [
@@ -59,7 +65,9 @@ GET方式获取数据，只需要在结尾写上城市名
     "year-month": "2020-8"
   }
 }
+
 ```
+## 注意
 在ESP8266的GET请求中需要对中文字符串进行编码
 urlencode("北京")
 ```cpp
