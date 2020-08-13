@@ -8,8 +8,8 @@
 
 **.env**用记事本打开编辑，在等号后面填写你申请的APPCODE
 
-### WEATHER_APPCODE=[天气预报APPCODE申请地址](https://market.aliyun.com/products/57126001/cmapi014123.html)
-### CALENDAR_APPCODE=[农历APPCODE申请地址](https://www.juhe.cn/docs/api/id/177)
+>WEATHER_APPCODE=[天气预报APPCODE申请地址](https://market.aliyun.com/products/57126001/cmapi014123.html)
+CALENDAR_APPCODE=[农历APPCODE申请地址](https://www.juhe.cn/docs/api/id/177)
 
 填写完毕后保存关闭，直接运行天气服务器即可
 ## 获取数据
