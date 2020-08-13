@@ -4,11 +4,11 @@
 
 ## 部署
 
-下载系统对应的程序和**.env**文件(也可以自己创建一个)
+下载操作系统对应的程序和**.env**文件(也可以自己创建一个,需要和程序在同一目录)
 
 **.env**用记事本打开编辑，在等号后面填写你申请的APPCODE
 
-> WEATHER_APPCODE=[天气预报APPCODE申请地址](https://market.aliyun.com/products/57126001/cmapi014123.html)
+WEATHER_APPCODE=[天气预报APPCODE申请地址](https://market.aliyun.com/products/57126001/cmapi014123.html)
 CALENDAR_APPCODE=[农历APPCODE申请地址](https://www.juhe.cn/docs/api/id/177)
 
 填写完毕后保存关闭，直接运行天气服务器即可
