@@ -4,7 +4,7 @@
 
 ## 部署
 
-###方式1
+### 方式1
 下载操作系统对应的程序和**.env**文件(也可以自己创建一个,需要和程序在同一目录)
 **.env**用记事本打开编辑，在等号后面填写你申请的APPCODE
 
@@ -17,7 +17,7 @@ GET方式获取数据，只需要在结尾写上城市名
 
 > http://localhost:5000/weather/北京
 
-###方式2
+### 方式2
 下载操作系统对应的程序，直接运行。
 GET方式获取数据，直接把需要的参数都写在URL上，填写城市名、[天气预报APPCODE](https://market.aliyun.com/products/57126001/cmapi014123.html)、[农历APPCODE](https://www.juhe.cn/docs/api/id/177)
 > http://localhost:5000/weather/北京/WEATHER_APPCODE/CALENDAR_APPCODE
