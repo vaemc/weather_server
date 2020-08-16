@@ -108,4 +108,4 @@ String urlencode(String str)
 ```
 
 
-![4寸大屏天气预报](https://github.com/vaemc/esp8266_weather_server/blob/master/1.png)
+![4寸大屏天气预报](https://github.com/vaemc/esp8266_weather_server/blob/master/bb.jpg)
