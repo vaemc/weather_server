@@ -1,7 +1,7 @@
 
 # esp8266_weather_server
 这是一个ESP8266天气服务器,可以在windows、linux、macos服务器上面运行。
-
+>欢迎加入ESP8266项目交流群：1135300586
 ## 部署
 
 ### 方式1
